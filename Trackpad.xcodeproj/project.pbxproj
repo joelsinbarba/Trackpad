@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79E44DB257FEAA9007B9C77 /* TrackpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E44DA257FEAA9007B9C77 /* TrackpadApp.swift */; };
+		E79E44DD257FEAA9007B9C77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E44DC257FEAA9007B9C77 /* ContentView.swift */; };
+		E79E44DF257FEAAA007B9C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79E44DE257FEAAA007B9C77 /* Assets.xcassets */; };
+		E79E44E2257FEAAA007B9C77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79E44E1257FEAAA007B9C77 /* Preview Assets.xcassets */; };
+		E79E44EE257FEAAA007B9C77 /* TrackpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E44ED257FEAAA007B9C77 /* TrackpadTests.swift */; };
+		E79E44F9257FEAAA007B9C77 /* TrackpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E44F8257FEAAA007B9C77 /* TrackpadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E79E44EA257FEAAA007B9C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79E44CF257FEAA9007B9C77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79E44D6257FEAA9007B9C77;
+			remoteInfo = Trackpad;
+		};
+		E79E44F5257FEAAA007B9C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79E44CF257FEAA9007B9C77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79E44D6257FEAA9007B9C77;
+			remoteInfo = Trackpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E79E44D7257FEAA9007B9C77 /* Trackpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79E44DA257FEAA9007B9C77 /* TrackpadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadApp.swift; sourceTree = "<group>"; };
+		E79E44DC257FEAA9007B9C77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E79E44DE257FEAAA007B9C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79E44E1257FEAAA007B9C77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E79E44E3257FEAAA007B9C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79E44E4257FEAAA007B9C77 /* Trackpad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trackpad.entitlements; sourceTree = "<group>"; };
+		E79E44E9257FEAAA007B9C77 /* TrackpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79E44ED257FEAAA007B9C77 /* TrackpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadTests.swift; sourceTree = "<group>"; };
+		E79E44EF257FEAAA007B9C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79E44F4257FEAAA007B9C77 /* TrackpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79E44F8257FEAAA007B9C77 /* TrackpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadUITests.swift; sourceTree = "<group>"; };
+		E79E44FA257FEAAA007B9C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79E44D4257FEAA9007B9C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E44E6257FEAAA007B9C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E44F1257FEAAA007B9C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79E44CE257FEAA9007B9C77 = {
+			isa = PBXGroup;
+			children = (
+				E79E44D9257FEAA9007B9C77 /* Trackpad */,
+				E79E44EC257FEAAA007B9C77 /* TrackpadTests */,
+				E79E44F7257FEAAA007B9C77 /* TrackpadUITests */,
+				E79E44D8257FEAA9007B9C77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E79E44D8257FEAA9007B9C77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79E44D7257FEAA9007B9C77 /* Trackpad.app */,
+				E79E44E9257FEAAA007B9C77 /* TrackpadTests.xctest */,
+				E79E44F4257FEAAA007B9C77 /* TrackpadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79E44D9257FEAA9007B9C77 /* Trackpad */ = {
+			isa = PBXGroup;
+			children = (
+				E79E44DA257FEAA9007B9C77 /* TrackpadApp.swift */,
+				E79E44DC257FEAA9007B9C77 /* ContentView.swift */,
+				E79E44DE257FEAAA007B9C77 /* Assets.xcassets */,
+				E79E44E3257FEAAA007B9C77 /* Info.plist */,
+				E79E44E4257FEAAA007B9C77 /* Trackpad.entitlements */,
+				E79E44E0257FEAAA007B9C77 /* Preview Content */,
+			);
+			path = Trackpad;
+			sourceTree = "<group>";
+		};
+		E79E44E0257FEAAA007B9C77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E79E44E1257FEAAA007B9C77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E79E44EC257FEAAA007B9C77 /* TrackpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				E79E44ED257FEAAA007B9C77 /* TrackpadTests.swift */,
+				E79E44EF257FEAAA007B9C77 /* Info.plist */,
+			);
+			path = TrackpadTests;
+			sourceTree = "<group>";
+		};
+		E79E44F7257FEAAA007B9C77 /* TrackpadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E79E44F8257FEAAA007B9C77 /* TrackpadUITests.swift */,
+				E79E44FA257FEAAA007B9C77 /* Info.plist */,
+			);
+			path = TrackpadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79E44D6257FEAA9007B9C77 /* Trackpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79E44FD257FEAAA007B9C77 /* Build configuration list for PBXNativeTarget "Trackpad" */;
+			buildPhases = (
+				E79E44D3257FEAA9007B9C77 /* Sources */,
+				E79E44D4257FEAA9007B9C77 /* Frameworks */,
+				E79E44D5257FEAA9007B9C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trackpad;
+			productName = Trackpad;
+			productReference = E79E44D7257FEAA9007B9C77 /* Trackpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E79E44E8257FEAAA007B9C77 /* TrackpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79E4500257FEAAA007B9C77 /* Build configuration list for PBXNativeTarget "TrackpadTests" */;
+			buildPhases = (
+				E79E44E5257FEAAA007B9C77 /* Sources */,
+				E79E44E6257FEAAA007B9C77 /* Frameworks */,
+				E79E44E7257FEAAA007B9C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79E44EB257FEAAA007B9C77 /* PBXTargetDependency */,
+			);
+			name = TrackpadTests;
+			productName = TrackpadTests;
+			productReference = E79E44E9257FEAAA007B9C77 /* TrackpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E79E44F3257FEAAA007B9C77 /* TrackpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79E4503257FEAAA007B9C77 /* Build configuration list for PBXNativeTarget "TrackpadUITests" */;
+			buildPhases = (
+				E79E44F0257FEAAA007B9C77 /* Sources */,
+				E79E44F1257FEAAA007B9C77 /* Frameworks */,
+				E79E44F2257FEAAA007B9C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79E44F6257FEAAA007B9C77 /* PBXTargetDependency */,
+			);
+			name = TrackpadUITests;
+			productName = TrackpadUITests;
+			productReference = E79E44F4257FEAAA007B9C77 /* TrackpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79E44CF257FEAA9007B9C77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					E79E44D6257FEAA9007B9C77 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					E79E44E8257FEAAA007B9C77 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E79E44D6257FEAA9007B9C77;
+					};
+					E79E44F3257FEAAA007B9C77 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E79E44D6257FEAA9007B9C77;
+					};
+				};
+			};
+			buildConfigurationList = E79E44D2257FEAA9007B9C77 /* Build configuration list for PBXProject "Trackpad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79E44CE257FEAA9007B9C77;
+			productRefGroup = E79E44D8257FEAA9007B9C77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79E44D6257FEAA9007B9C77 /* Trackpad */,
+				E79E44E8257FEAAA007B9C77 /* TrackpadTests */,
+				E79E44F3257FEAAA007B9C77 /* TrackpadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79E44D5257FEAA9007B9C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79E44E2257FEAAA007B9C77 /* Preview Assets.xcassets in Resources */,
+				E79E44DF257FEAAA007B9C77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E44E7257FEAAA007B9C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E44F2257FEAAA007B9C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79E44D3257FEAA9007B9C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79E44DD257FEAA9007B9C77 /* ContentView.swift in Sources */,
+				E79E44DB257FEAA9007B9C77 /* TrackpadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E44E5257FEAAA007B9C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79E44EE257FEAAA007B9C77 /* TrackpadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E44F0257FEAAA007B9C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79E44F9257FEAAA007B9C77 /* TrackpadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E79E44EB257FEAAA007B9C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79E44D6257FEAA9007B9C77 /* Trackpad */;
+			targetProxy = E79E44EA257FEAAA007B9C77 /* PBXContainerItemProxy */;
+		};
+		E79E44F6257FEAAA007B9C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79E44D6257FEAA9007B9C77 /* Trackpad */;
+			targetProxy = E79E44F5257FEAAA007B9C77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E79E44FB257FEAAA007B9C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E79E44FC257FEAAA007B9C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E79E44FE257FEAAA007B9C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Trackpad/Trackpad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Trackpad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Trackpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lchza.Trackpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E79E44FF257FEAAA007B9C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Trackpad/Trackpad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Trackpad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Trackpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lchza.Trackpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E79E4501257FEAAA007B9C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrackpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lchza.TrackpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackpad.app/Contents/MacOS/Trackpad";
+			};
+			name = Debug;
+		};
+		E79E4502257FEAAA007B9C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrackpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lchza.TrackpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackpad.app/Contents/MacOS/Trackpad";
+			};
+			name = Release;
+		};
+		E79E4504257FEAAA007B9C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrackpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lchza.TrackpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Trackpad;
+			};
+			name = Debug;
+		};
+		E79E4505257FEAAA007B9C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrackpadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lchza.TrackpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Trackpad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79E44D2257FEAA9007B9C77 /* Build configuration list for PBXProject "Trackpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79E44FB257FEAAA007B9C77 /* Debug */,
+				E79E44FC257FEAAA007B9C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79E44FD257FEAAA007B9C77 /* Build configuration list for PBXNativeTarget "Trackpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79E44FE257FEAAA007B9C77 /* Debug */,
+				E79E44FF257FEAAA007B9C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79E4500257FEAAA007B9C77 /* Build configuration list for PBXNativeTarget "TrackpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79E4501257FEAAA007B9C77 /* Debug */,
+				E79E4502257FEAAA007B9C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79E4503257FEAAA007B9C77 /* Build configuration list for PBXNativeTarget "TrackpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79E4504257FEAAA007B9C77 /* Debug */,
+				E79E4505257FEAAA007B9C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79E44CF257FEAA9007B9C77 /* Project object */;
+}
