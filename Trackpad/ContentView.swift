@@ -24,9 +24,9 @@ final class AppKitTouchesView: NSView {
     private func handleTouches(with event: NSEvent) {
         // Get all `.touching` touches only (includes `.began`, `.moved` & `.stationary`).
         let touches = event.touches(matching: .touching, in: self)
-        print("hey hello")
+        // print("touching trackpad")
         // Forward them via delegate.
-        //delegate?.touchesView(self, didUpdateTouchingTouches: touches)
+        delegate?.touchesView(self, didUpdateTouchingTouches: touches)
     }
 
     override func touchesBegan(with event: NSEvent) {
@@ -104,7 +104,7 @@ struct TrackPadView: View {
                 TouchesView(touches: self.$touches)
                 ForEach(self.touches) { touch in
                     Circle()
-                        .foregroundColor(Color.blue)
+                        .foregroundColor(Color.red)
                         .frame(width: self.touchViewSize, height: self.touchViewSize)
                         .offset(
                             x: proxy.size.width * touch.normalizedX - self.touchViewSize / 2.0,
